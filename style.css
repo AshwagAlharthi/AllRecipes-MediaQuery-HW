@@ -297,6 +297,9 @@
 .trend-title {
     font-size: 2rem;
     font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.8rem;
+    text-decoration-color: #e7ab46 ;
 }
 
 .trend-col1 {
