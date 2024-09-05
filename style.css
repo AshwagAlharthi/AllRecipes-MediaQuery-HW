@@ -299,7 +299,7 @@
     font-weight: bold;
     text-decoration: underline;
     text-decoration-thickness: 0.8rem;
-    text-decoration-color: #e7ab46 ;
+    text-decoration-color: #e7ab46;
 }
 
 .trend-col1 {
@@ -334,4 +334,204 @@
 
 .medium-title {
     font-size: 0.55rem;
+}
+
+/* home-content */
+.home-container {
+    width: 100%;
+    height: 350vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-content {
+    width: 90%;
+    height: 340vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1rem solid #e7ab46;
+}
+
+.home-header, .home-people {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fbd657;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 70%;
+}
+
+.home-desc {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 90%;
+}
+
+.home-desc span {
+    color: #d43e11;
+    font-size: 0.9rem;
+}
+
+.home-image {
+    width: 60%;
+}
+
+.home-image img {
+    width: 100%;
+}
+
+.home-main {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-subtitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.13rem;
+    text-decoration-color: #d43e11;
+}
+
+.home-main-desc1 {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 85%;
+}
+
+.home-main-desc2 {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    width: 95%;
+}
+
+.circle-navigate {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-gray {
+    width: 2vw;
+    height: 2vh;
+    background-color: #d9d9d9;
+    border: 1px solid #cdcdcd;
+    border-radius: 50px;
+}
+
+.circle-darkgray {
+    width: 2vw;
+    height: 2vh;
+    background-color: #636363;
+    border: 1px solid #595959;
+    border-radius: 50px;
+}
+
+.home-media, .home-people, .home-about-people, .home-about-people2 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-media-views {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-media-views2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 17%;
+    height: 8vh;
+}
+
+.media-icon {
+    width: 30%;
+}
+.media-icon img {
+    width: 100%;
+    height: 5vh;
+}
+
+.home-people {
+    height: 35vh;
+}
+
+.home-about-people {
+    height: 35vh;
+    justify-content: space-between;
+}
+
+.home-about-people2 {
+    height: 16vh;
+    justify-content: space-between;
+}
+
+.people-type {
+    width: 90%;
+}
+
+.people-desc {
+    color: #d43e11;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.home-people-views {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-people-views2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people-col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+}
+.people-icon{
+    width: 100%;
+}
+
+.people-icon img {
+    width: 100%;
 }
