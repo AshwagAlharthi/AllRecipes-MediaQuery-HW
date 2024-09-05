@@ -578,6 +578,8 @@
     height: 12vh;
     border: 0.2rem solid#d54215;
     font-weight: bold;
+    color: black;
+    background-color: white;
 }
 
 .footer-about-links {
